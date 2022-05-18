@@ -15,6 +15,7 @@ int main () {
 
         case 0: cout << a << " is a special symbol!" << endl;
         break;
+
     }
 
     return 0;
