@@ -27,6 +27,12 @@ int main () {
     int answer = power();
     cout << "Answer is " << answer << endl;
 
+    answer = power();
+    cout << "Answer is " << answer << endl;
+
+    answer = power();
+    cout << "Answer is " << answer << endl;
+    
     return 0;
 
 }
