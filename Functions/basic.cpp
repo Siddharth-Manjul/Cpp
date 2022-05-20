@@ -18,9 +18,14 @@ int divide(int a, int b) {
 }
 
 int main () {
-    cout << sum(2,4) << endl;
-    cout << subtract(2,0) << endl;
-    cout << multiply(2,4) << endl;
-    cout << divide(2,1) << endl;
+
+    int a, b;
+    cin >> a >> b;
+
+    cout << sum(a, b) << endl;
+    cout << subtract(a, b) << endl;
+    cout << multiply(a, b) << endl;
+    cout << divide(a, b) << endl;
+    
     return 0;
 }
