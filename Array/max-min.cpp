@@ -7,6 +7,8 @@ int getMax(int num[], int n) {
 
     for (int i = 0; i < n; i++) {
 
+        // max = max(max, num[i]);
+
         if (num[i] > max) {
 
             max = num[i];
@@ -21,6 +23,8 @@ int getMin(int num[], int n) {
     int min = INT_MAX;
 
     for (int i = 0; i < n; i++) {
+
+        // min = min(min, num[i]);
 
         if (num[i] < min) {
 
