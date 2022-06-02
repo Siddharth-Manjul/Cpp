@@ -1,3 +1,5 @@
+// Basic of C++ STL (Arrays)...
+
 #include<iostream>
 #include<array>
 using namespace std;
@@ -19,4 +21,7 @@ int main () {
     cout << "Element at 2nd index: " << a[2] << endl;
 
     cout << "Empty or not: " << a.empty() << endl;
+
+    cout << "First Element is " << a.front() << endl;
+    cout << "Last Element is " << a.back() << endl;
 }
